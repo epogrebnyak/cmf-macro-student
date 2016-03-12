@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>CMF Empirical Macro Overview</title>
+    <meta charset="utf-8">
+    <!-- This is template for http://remarkjs.com/ by Ole Petter Bang -->
+    <!-- Also sourceable form http://www.jmlilly.net/liminal/talks/template.html -->
+	
+    <style type="text/css">
+	
+      body {font-family: helvetica, sans-serif}
+      
+      h1, h2, h3 { 
+        font-weight: normal;
+        color:#33A1C9;
+      }
+	  
+    </style>
+	
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# CMF Empirical Macroeconomics 2016
+
+12.03.2016
+
+Presented by Evgeniy Pogrebnyak  
+e.pogrebnyak@gmail.com
+
+Lectures and support files: <https://github.com/epogrebnyak/cmf-macro-student>
+
+<!--Development
+Team: <https://macrocmf.slack.com/>
+Home repo: <https://github.com/epogrebnyak/cmf-macro>
+--->
+
+---
+
+### Course goal
+
+Learn skills for data-driven, replicable and explicit analysis of Russian economy using econometrics in R/python. 
+
+### Required skillsets
+
+- macroeconomics
+- economic statistics
+- econometrics
+- programming
+
+---
+
+### Main lectures
+
+1. Statistics frameworks: IO tables, SNA, flow of funds
+2. Time series data sources
+3. Seasonality, detrending and business cycle 
+4. Structural regressions for key macroeconomic variables   
+5. Whole economy modelling: 
+ - structural simultaneous equations
+ - vector autoregressions (VAR)
+ - general equilibrium models (DSGE)
+
+###Extra lectures
+- Nowcasting
+- BOP + FX
+- Money, banks and credit
+- Monetary and fiscal policy
+
+---
+
+![image](https://cloud.githubusercontent.com/assets/9265326/12965783/05560550-d06a-11e5-9185-310e0d599e79.png)
+ 
+---
+
+### Reading for further lectures
+
+- System of National Accounts
+
+- Flow of Funds
+
+- Systems of equations
+  - systemfit
+  
+- Structural models
+ - Fair model
+ - Rusoil Russian economy 
+ - Mikhailenko 
+ 
+
+---
+### Code for further lectures 
+
+ - Small introduction to [time series in R and pandas](https://github.com/epogrebnyak/cmf-macro/tree/master/time_series_intro)
+ 
+ - Application programming interface [API](https://ru.wikipedia.org/wiki/API)
+ 
+ - St Louis [FRED](https://research.stlouisfed.org/fred2/) and [R interface example]()
+
+ - Rosstat [Short-term indicators (KEP)](http://www.gks.ru/wps/wcm/connect/rosstat_main/rosstat/ru/statistics/publications/catalog/doc_1140080765391) 
+   and [KEP dataset](https://github.com/epogrebnyak/rosstat-kep-data)  
+   
+ - R and pandas interfaces to KEP:
+   [interface.py](https://github.com/epogrebnyak/rosstat-kep-data/blob/master/interface.py)
+   and [interface.r](https://github.com/epogrebnyak/rosstat-kep-data/blob/master/interface.r)
+
+ - More API examples: [exchange rate and oil price retrieval](https://github.com/epogrebnyak/fx-oil/blob/master/tasks.py)
+  
+ - Building Excel files: [make-xls-model](https://github.com/epogrebnyak/make-xls-model)
+
+####Most important:
+
+- R and pandas interfaces to KEP:
+   [interface.py](https://github.com/epogrebnyak/rosstat-kep-data/blob/master/interface.py)
+   and [interface.r](https://github.com/epogrebnyak/rosstat-kep-data/blob/master/interface.r)
+ 
+ 
+---
+### Next: data source "universe" 
+
+<To be continued>
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
